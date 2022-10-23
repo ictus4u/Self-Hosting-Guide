@@ -21,14 +21,14 @@
        * [Containers](#containers)
        * [CI/CD](#cicd)
        * [Development](#development)
-       * [Remote Desktop](#Remote-Desktop)
-       * [Virtualization](#Virtualization)
+       * [Remote Desktop](#remote-desktop)
+       * [Virtualization](#virtualization)
        * [Password Management](#password-management)
        * [Network Tools](#network-tools)
        * [Monitoring](#monitoring)
        * [Communications](#communications)
        * [Business Management](#business-management)
-       * [Collaboration & Synchronization](#Collaboration--Synchronization)
+       * [Collaboration & Synchronization](#collaboration--synchronization)
        * [Backups](#backups)
        * [Home Server](#home-server)
        * [Media Server](#media-server)
@@ -61,7 +61,7 @@
 
     - [Raspberry Pi Upgrades](#raspberry-pi-upgrades)
 
-5. [Grafana](#Grafana)
+5. [Grafana](#grafana)
 
 6. [Networking](#networking)
 
