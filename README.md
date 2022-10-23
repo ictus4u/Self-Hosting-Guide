@@ -15,114 +15,114 @@
  
 # Table of Contents
 
-1. [Getting Started with Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
+1. [Getting Started with Self-Hosting](#getting-started-with-self-hosting)
  
-    - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
-       * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
-       * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
-       * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
-       * [Remote Desktop](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Desktop)
-       * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
-       * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
-       * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
-       * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
-       * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
-       * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
-       * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
-       * [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
-       * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
-       * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
-       * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
-       * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
-       * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
-       * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
+    - [Tools for Self-Hosting](#tools-for-self-hosting)
+       * [Containers](#containers)
+       * [CI/CD](#cicd)
+       * [Development](#development)
+       * [Remote Desktop](#Remote-Desktop)
+       * [Virtualization](#Virtualization)
+       * [Password Management](#password-management)
+       * [Network Tools](#network-tools)
+       * [Monitoring](#monitoring)
+       * [Communications](#communications)
+       * [Business Management](#business-management)
+       * [Collaboration & Synchronization](#Collaboration--Synchronization)
+       * [Backups](#backups)
+       * [Home Server](#home-server)
+       * [Media Server](#media-server)
+       * [Maps](#maps)
+       * [Photos](#photos)
+       * [Gaming](#gaming)
+       * [Foundations/Projects](#foundationsprojects)
 
-    - [Storage](https://github.com/mikeroyal/Self-Hosting-Guide#storage)
-    - [File systems](https://github.com/mikeroyal/Self-Hosting-Guide#file-systems)
-    - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
-    - [Podcasts](https://github.com/mikeroyal/Self-Hosting-Guide#podcasts)
-    - [YouTube Channels](https://github.com/mikeroyal/Self-Hosting-Guide#youtube-channels)
-    - [Tutorials & Resources](https://github.com/mikeroyal/Self-Hosting-Guide#tutorials--resources)
-    - [Useful Subreddits to Follow](https://github.com/mikeroyal/Self-Hosting-Guide#subreddits)
+    - [Storage](#storage)
+    - [File systems](#file-systems)
+    - [Books](#books)
+    - [Podcasts](#podcasts)
+    - [YouTube Channels](#youtube-channels)
+    - [Tutorials & Resources](#tutorials--resources)
+    - [Useful Subreddits to Follow](#subreddits)
 
-2. [WireGuard](https://github.com/mikeroyal/Self-Hosting-Guide#wireguard)
+2. [WireGuard](#wireguard)
 
-3. [Nextcloud](https://github.com/mikeroyal/Self-Hosting-Guide#nextcloud)
+3. [Nextcloud](#nextcloud)
 
-4. [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
+4. [Raspberry Pi](#raspberry-pi)
      
-    - [Models of Raspberry Pi boards](https://github.com/mikeroyal/Self-Hosting-Guide#models-of-raspberry-pi-boards)
+    - [Models of Raspberry Pi boards](#models-of-raspberry-pi-boards)
 
-    - [Raspberry Pi Learning Resources](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-learning-resources)
+    - [Raspberry Pi Learning Resources](#raspberry-pi-learning-resources)
 
-    - [Raspberry Pi Operating Systems](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-operating-systems)
+    - [Raspberry Pi Operating Systems](#raspberry-pi-operating-systems)
 
-    - [Raspberry Pi Tools](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-tools)
+    - [Raspberry Pi Tools](#raspberry-pi-tools)
 
-    - [Raspberry Pi Upgrades](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-upgrades)
+    - [Raspberry Pi Upgrades](#raspberry-pi-upgrades)
 
-5. [Grafana](https://github.com/mikeroyal/Self-Hosting-Guide#Grafana)
+5. [Grafana](#Grafana)
 
-6. [Networking](https://github.com/mikeroyal/Self-Hosting-Guide#networking)
+6. [Networking](#networking)
 
-7. [Docker](https://github.com/mikeroyal/Self-Hosting-Guide#docker)
+7. [Docker](#docker)
 
-8. [Kubernetes](https://github.com/mikeroyal/Self-Hosting-Guide#kubernetes)
+8. [Kubernetes](#kubernetes)
 
-9. [Ansible](https://github.com/mikeroyal/Self-Hosting-Guide#ansible)
+9. [Ansible](#ansible)
 
-10. [Databases](https://github.com/mikeroyal/Self-Hosting-Guide#databases)
+10. [Databases](#databases)
 
-11. [Telco 5G](https://github.com/mikeroyal/Self-Hosting-Guide#telco-5g)
+11. [Telco 5G](#telco-5g)
 
-12. [Open Source Security](https://github.com/mikeroyal/Self-Hosting-Guide#open-source-security)
+12. [Open Source Security](#open-source-security)
 
-13. [Differential Privacy](https://github.com/mikeroyal/Self-Hosting-Guide#differential-privacy)
+13. [Differential Privacy](#differential-privacy)
 
-14. [Machine Learning](https://github.com/mikeroyal/Self-Hosting-Guide#machine-learning)
+14. [Machine Learning](#machine-learning)
 
-15. [IoT Protocols](https://github.com/mikeroyal/Self-Hosting-Guide#iot-protocols)
+15. [IoT Protocols](#iot-protocols)
 
-16. [Operating systems (OS)](https://github.com/mikeroyal/Self-Hosting-Guide#operating-systems)
+16. [Operating systems (OS)](#operating-systems)
 
-17. [Middleware](https://github.com/mikeroyal/Self-Hosting-Guide#middleware)
+17. [Middleware](#middleware)
 
-18. [Node Flow editors](https://github.com/mikeroyal/Self-Hosting-Guide#node-flow-editors)
+18. [Node Flow editors](#node-flow-editors)
 
-19. [Toolkits](https://github.com/mikeroyal/Self-Hosting-Guide#toolkits)
+19. [Toolkits](#toolkits)
 
-20. [Data visualization](https://github.com/mikeroyal/Self-Hosting-Guide#data-visualization)
+20. [Data visualization](#data-visualization)
  
-21. [Search](https://github.com/mikeroyal/Self-Hosting-Guide#search)
+21. [Search](#search)
 
-22. [Hardware](https://github.com/mikeroyal/Self-Hosting-Guide#hardware)
+22. [Hardware](#hardware)
 
-23. [In-memory data grids](https://github.com/mikeroyal/Self-Hosting-Guide#in-memory-data-grids)
+23. [In-memory data grids](#in-memory-data-grids)
 
-24. [Home automation](https://github.com/mikeroyal/Self-Hosting-Guide#home-automation)
+24. [Home automation](#home-automation)
 
-25. [Robotics](https://github.com/mikeroyal/Self-Hosting-Guide#robotics)
+25. [Robotics](#robotics)
 
-26. [Mesh networks](https://github.com/mikeroyal/Self-Hosting-Guide#mesh-networks)
+26. [Mesh networks](#mesh-networks)
 
-27. [Blockchain Development](https://github.com/mikeroyal/Self-Hosting-Guide#blockchain-development)
+27. [Blockchain Development](#blockchain-development)
 
-28. [Node.js Development](https://github.com/mikeroyal/Self-Hosting-Guide#nodejs-development)
+28. [Node.js Development](#nodejs-development)
 
-29. [C/C++ Development](https://github.com/mikeroyal/Self-Hosting-Guide#cc-development)
+29. [C/C++ Development](#cc-development)
 
-30. [Java Development](https://github.com/mikeroyal/Self-Hosting-Guide#java-development)
+30. [Java Development](#java-development)
 
-31. [Python Development](https://github.com/mikeroyal/Self-Hosting-Guide#python-development)
+31. [Python Development](#python-development)
 
-32. [Rust Development](https://github.com/mikeroyal/Self-Hosting-Guide#rust-development)
+32. [Rust Development](#rust-development)
 
-33. [Swift Development](https://github.com/mikeroyal/Self-Hosting-Guide#swift-development)
+33. [Swift Development](#swift-development)
 
-34. [XML Development](https://github.com/mikeroyal/Self-Hosting-Guide#xml-development)
+34. [XML Development](#xml-development)
 
 # Getting Started with Self-Hosting
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).  
 
@@ -134,7 +134,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 </p>
 
 ## Tools for Self-Hosting
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 ### Containers
 
@@ -732,7 +732,7 @@ Automation systems.
 
 ### Storage
 
- [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+ [Back to the Top](#table-of-contents)
  
   - [Western Digital Hard Drives Storage size range 2TB up to 20TB](https://www.westerndigital.com/c/internal-drives.0_TB-4_TB.11_TB-20_TB.5_TB-10_TB.hard_drives)
  
@@ -756,7 +756,7 @@ Automation systems.
 
 ### File systems
 
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
 
@@ -812,7 +812,7 @@ Automation systems.
 [exFAT(Extended File Allocation Table )](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification) is the file system that was the successor to FAT32 in the FAT family of file systems. It was optimized for flash memory such as USB flash drives and SD cards.
 
 ### Books
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
   - [Self-hosted Cookbook](https://github.com/tborychowski/self-hosted-cookbook) is a cookbook, for docker-compose based recipes, for self-hosted applications and services. 
   
@@ -821,14 +821,14 @@ Automation systems.
   - [Database Books(PDFs)](https://github.com/miollek/Free-Database-Books)
   
 ### Podcasts
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
   
   - [Self-Hosted Podcast](https://selfhosted.show/) is a chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you along for the journey as they learn new ones. 
   
   - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
 
 ### YouTube Channels
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
   - [Jeff Geerling](https://www.youtube.com/c/JeffGeerling)
   
@@ -864,7 +864,7 @@ Automation systems.
   
   
 ### Tutorials & Resources
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
   - [Awesome-SelfHosted](https://github.com/awesome-selfhosted/awesome-selfhosted) is a directory of free software solutions and web applications which can be hosted locally.
   
@@ -919,7 +919,7 @@ Automation systems.
   - [Azure DevOps Self Hosted](https://github.com/Azure/DevOps-Self-Hosted)
   
  ### Subreddits
- [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+ [Back to the Top](#table-of-contents)
   
   - [r/Selfhosted](https://www.reddit.com/r/selfhosted/)
   - [r/Webhosting](https://www.reddit.com/r/webhosting/)
@@ -963,7 +963,7 @@ Automation systems.
  
 
 # WireGuard
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/147891038-00f57362-e843-4bfb-be31-606c954d4e6c.png">
@@ -1014,7 +1014,7 @@ Automation systems.
 [Ethr](https://github.com/microsoft/ethr) is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
 
 # Nextcloud
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/150701955-f1f514a8-82e6-462f-9fc9-8926b6b7de3e.png">
@@ -1065,7 +1065,7 @@ Nexcloud Hub
 [Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
 
 # Raspberry Pi 
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/103486513-4cecbc80-4db3-11eb-89a0-fa155cbcdbda.png">
@@ -1074,7 +1074,7 @@ Nexcloud Hub
 
 ## Models of Raspberry Pi boards
 
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 **Raspberry Pi 4 Model B**
 
@@ -1150,7 +1150,7 @@ Nexcloud Hub
 
 
 ## Raspberry Pi Learning Resources
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
 
@@ -1180,7 +1180,7 @@ Nexcloud Hub
 
 
 ## Raspberry Pi Operating Systems
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
 
@@ -1224,7 +1224,7 @@ Nexcloud Hub
 
 
 ## Raspberry Pi Tools
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
 
@@ -1257,7 +1257,7 @@ Nexcloud Hub
 [OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
 
 # Raspberry Pi Upgrades
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi Cases from Pi-Shop US](https://www.pishop.us/product-category/raspberry-pi/pi-cases/)
 
@@ -1321,7 +1321,7 @@ Nexcloud Hub
 </p>
 
 # Grafana
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/124398126-eea08800-dcc8-11eb-8129-087e924d9eed.png">
@@ -1384,7 +1384,7 @@ Nexcloud Hub
 
 
 # Networking
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/82833053-d1687b80-9e71-11ea-8c6d-074100f2f54b.png">
@@ -1507,7 +1507,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [OAuth 2.0](https://oauth.net/2/) is an open source authorization framework that enables applications to obtain limited access to user accounts on an HTTP service, such as Amazon, Google, Facebook, Microsoft, Twitter GitHub, and DigitalOcean. It works by delegating user authentication to the service that hosts the user account, and authorizing third-party applications to access the user account.
 
 # Docker
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/113521410-2e32c900-954e-11eb-8311-065fa0099546.png">
@@ -1580,7 +1580,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 
 # Kubernetes
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/95383873-a884d800-08a0-11eb-8eaf-57af5b119f56.png">
@@ -1725,7 +1725,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Platform9 Managed Kubernetes (PMK)](https://platform9.com/managed-kubernetes/) is a Kubernetes as a service that ensures fully automated Day-2 operations with 99.9% SLA on any environment, whether in data-centers, public clouds, or at the edge.
 
 # Ansible
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/113448802-62bd4e00-93b1-11eb-9114-419e758af23b.png">
@@ -1817,7 +1817,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [OpenShift Hive](https://github.com/openshift/hive) is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
 # Databases
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/119279004-daec0700-bbdd-11eb-9662-b1fc86ec8448.png">
@@ -1945,7 +1945,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Sequel Pro](https://sequelpro.com/) is a fast MacOS database management tool for working with MySQL. This SQL management tool helpful for interacting with your database by easily to adding new databases, new tables, and new rows.
 
 # Telco 5G
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <img src="https://user-images.githubusercontent.com/45159366/105409952-14881380-5be6-11eb-84fc-b07db69698ed.png">
  
@@ -2039,7 +2039,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Network functions virtualization infrastructure(NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
 
 # Open Source Security
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Open Source Security Foundation (OpenSSF)](https://openssf.org/) is a cross-industry collaboration that brings together leaders to improve the security of open source software by building a broader community, targeted initiatives, and best practices. The OpenSSF brings together open source security initiatives under one foundation to accelerate work through cross-industry support. Along with the Core Infrastructure Initiative and the Open Source Security Coalition, and will include new working groups that address vulnerability disclosures, security tooling and more.
 
@@ -2203,7 +2203,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Security Certifications Training from Pluarlsight](https://www.pluralsight.com/browse/information-cyber-security/security-certifications)
 
 # Differential Privacy
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/103486337-ff238480-4db1-11eb-9895-f7f49cc5715a.png">
@@ -2303,7 +2303,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Smart Noise](https://github.com/opendifferentialprivacy/smartnoise-sdk) is a toolkit that uses state-of-the-art differential privacy (DP) techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk.
 
 # Machine Learning
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <img src="https://user-images.githubusercontent.com/45159366/108111395-756e0480-7049-11eb-85ca-b87315e9d3ef.jpeg">
 
@@ -2393,7 +2393,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 
 # IoT Protocols
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [DBus](https://www.freedesktop.org/wiki/Software/dbus/) is an open source software bus developed Red Hat for inter-process communication, and remote procedure call mechanism that allows communication between multiple processes running concurrently on the same machine.
 
@@ -2414,7 +2414,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
  [Very Simple Control Protocol (VSCP)](https://vscp.org) is a free automation protocol suitable for all sorts of automation task where building- or home-automation is in the main focus. Its main advantage is that each VSCP-node can work completely autonomous, being part of distributed network of other nodes.
 
 # Operating systems
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 
 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
@@ -2477,7 +2477,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 
 # Middleware
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  [IoTSyS](https://iotsyst.com) is an integration middleware for the Internet of Things. It provides a communication stack for embedded devices based on IPv6, Web services, and OBIX to establish interoperable interfaces for smart objects.
 
@@ -2488,31 +2488,31 @@ It is extended by a set of privacy-specific requirements, control objectives and
  [Kaa](https://www.kaaproject.org/platform/) is a Enterprise IoT Platform has been designed with heavy-duty, enterprise-grade IoT solutions in mind. It banishes a monolithic approach to architecture in favour of highly portable microservices, which allow for flexible rearrangement and customization even in the middle of the solution's lifecycle.
 
 # Node flow editors
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  [Node-RED](https://nodered.org) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
 
 ### Toolkits
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  [KinomaJS](https://github.com/Kinoma/kinomajs) is a visual code editor designed to help developers build starter projects for Kinoma Create and Kinoma Element. The project is built on Angular 2(RC7) and runs in a web browser. The live version is hosted using Google App Engine, but you can modify and build it yourself by following the instructions in this document.
 
  [IoT Toolkit](https://www.segger.com/products/security-iot/iot-toolkit/) is a collection of libraries that enables communication with modern IoT based environments and devices. It is a high-performance collection of libraries optimized for minimum memory consumption in RAM, ROM, high speed, and versatility working on any device.
 
 # Data Visualization
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Freeboard](https://github.com/Freeboard/freeboard) is an open source real-time dashboard builder for IOT and other web mashups. A free open-source alternative to Geckoboard.
 
 [ThingSpeak](https://thingspeak.com) is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. You can send data to ThingSpeak from your devices, create instant visualization of live data, and send alerts.
 
 # Search
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  [Thingful](https://www.thingful.net) is a Search Engine for the Internet of Things Find & use open IoT data from around the world.
 
 # Hardware
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  [Arduino Ethernet Shield 2](https://www.arduino.cc/en/Guide/ArduinoEthernetShield) allows an Arduino board to connect to the internet using the Ethernet library and to read and write an SD card using the SD library.This shield is fully compatible with the former version, but relies on the newer W5500 chip.
 
@@ -2525,14 +2525,14 @@ It is extended by a set of privacy-specific requirements, control objectives and
  [Pinoccio](https://www.open-electronics.org/pinoccio-wifi-mesh-networking-for-arduino-and-iot-available-now/) is a solution to add mesh networking capability and WiFi-Internet access to all yout IoT devices, and it is Arduino compatible. Each board can assume the role of Scout in a Troop and one of the Scouts is the Lead to connect internet: Field Scouts talk to each other using a mesh network (called a Troop), using an extremely low-power radio.
 
 ### In-memory data grids
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  [Ehcache](https://www.ehcache.org) is an open source, standards-based cache that boosts performance, offloads your database, and simplifies scalability. It's the most widely-used Java-based cache because it's robust, proven, full-featured, and integrates with other popular libraries and frameworks.
 
  [Hazelcast](https://hazelcast.com) is an open source in-memory data grid based on Java.
 
 # Home automation
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  [Home Assistant](https://github.com/home-assistant/core) is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
@@ -2543,7 +2543,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
  [The Thing System](https://github.com/TheThingSystem) is a set of software components and network protocols that aims to fix the Internet of Things. Our steward software is written in node.js making it both portable and easily extensible. It can run on your laptop, or fit onto a small single board computer like the Raspberry Pi.
 
 # Robotics
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/96352533-b55fb380-1078-11eb-874c-f165cbcce899.png">
@@ -2649,7 +2649,7 @@ commercially available industrial robot models that you can import, visualize, a
 [Google Robotics Research](https://research.google/teams/brain/robotics/)
 
 # Mesh networks
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
 
@@ -2658,7 +2658,7 @@ commercially available industrial robot models that you can import, visualize, a
  [OpenWSN](https://github.com/openwsn-berkeley/) is a project created at the University of California Berkeley and extended at the INRIA and at the Open University of Catalonia which aims to build an open standard-based and open source implementation of a complete constrained network protocol stack for wireless sensor networks and Internet of Things.
  
 # Blockchain Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/95128607-878c7d80-070e-11eb-8a0d-5f01b80eb478.png">
@@ -2725,7 +2725,7 @@ commercially available industrial robot models that you can import, visualize, a
 [Squeezer](https://squeezer.io/) is a platform that empowers new-entry blockchain developers to build serverless dApps easily. 
  
 # Node.js Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719688-0becd700-fb39-11ea-9b87-3d52f1828aee.png">
@@ -2803,7 +2803,7 @@ commercially available industrial robot models that you can import, visualize, a
 [Hexo](https://hexo.io/) is a A fast, simple & powerful blog framework, powered by Node.js. 
 
 # C/C++ Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/115297894-961e0d80-a111-11eb-81c3-e2bd2ac9a7cd.png">
@@ -2941,7 +2941,7 @@ commercially available industrial robot models that you can import, visualize, a
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
 # Java Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93925952-c0b6fd80-fccb-11ea-9f90-21c4148e3c86.png">
@@ -3042,7 +3042,7 @@ commercially available industrial robot models that you can import, visualize, a
 [YourKit](https://www.yourkit.com/) is a technology leader, creator of the most innovative and intelligent tools for profiling Java & .NET applications.
 
 # Python Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93133273-ce490380-f68b-11ea-81d0-7f6a3debe6c0.png">
@@ -3164,7 +3164,7 @@ commercially available industrial robot models that you can import, visualize, a
 [Scikit-Learn](https://scikit-learn.org/stable/index.html) is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.
 
 # Rust Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93025405-8dc98700-f5b2-11ea-93f9-12b4a0ef3001.png">
@@ -3249,7 +3249,7 @@ commercially available industrial robot models that you can import, visualize, a
 [Writing an OS in Rust ](https://os.phil-opp.com) is a blog series creates a small operating system in the Rust programming language by [Philipp Oppermann](https://github.com/phil-opp). 
 
 # Swift Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719675-03949c00-fb39-11ea-8f81-bf4cd544c17f.png">
@@ -3339,7 +3339,7 @@ commercially available industrial robot models that you can import, visualize, a
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) is reactive extensions to Cocoa frameworks, built on top of ReactiveSwift.
 
 # XML Development
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/102813607-f8424e00-437d-11eb-81fa-27a83b4329d3.png">
@@ -3420,6 +3420,6 @@ commercially available industrial robot models that you can import, visualize, a
 
 
 ## License
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
